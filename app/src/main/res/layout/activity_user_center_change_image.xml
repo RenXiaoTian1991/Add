@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_user_center_change_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_user_center_change_image_photograph"
+        android:text="拍照"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+         />
+
+    <Button
+        android:id="@+id/btn_user_center_change_image_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="从相册选择"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_user_center_change_image_photograph"
+        />
+
+    <Button
+        android:id="@+id/btn_user_center_change_image_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="取消"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_user_center_change_image_location"
+         />
+
+</RelativeLayout>

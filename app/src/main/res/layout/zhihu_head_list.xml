@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="230dip"
+    >
+
+
+
+    <com.example.add.view.MyViewPager
+        android:id="@+id/viewPager_head"
+        android:layout_width="match_parent"
+        android:layout_height="230dip"
+        android:orientation="vertical"/>
+
+
+    <com.example.add.view.CirclePageIndicator
+        xmlns:CirclePageIndicator="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/indicator_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dip"
+        CirclePageIndicator:fillColor="#ffffffff"
+        CirclePageIndicator:pageColor="#9f888888"
+        CirclePageIndicator:strokeWidth="0dp" />
+
+
+</RelativeLayout>

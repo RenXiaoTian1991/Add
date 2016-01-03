@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@android:color/white">
+   <ImageView
+       android:id="@+id/iv"
+       android:layout_width="100dip"
+       android:layout_height="100dip"
+       android:scaleType="fitXY"
+       android:layout_centerHorizontal="true"
+       android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_below="@id/iv"
+        android:layout_width="80dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="下载"/>
+
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_below="@id/btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spacing="5dip"
+        android:background="@android:color/holo_blue_bright">
+    </Gallery>
+    <Button
+        android:id="@+id/btn_pop"
+        android:layout_below="@id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择框"/>
+
+</RelativeLayout>
